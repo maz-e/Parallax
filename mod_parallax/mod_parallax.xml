@@ -12,18 +12,15 @@
 	<scriptfile>script.php</scriptfile>
 
    <files>
-      <filename>mod_parallax.xml</filename>
       <filename module="mod_parallax">mod_parallax.php</filename>
-      <filename>index.html</filename>
-      <filename>helper.php</filename>
-      <filename>tmpl/default.php</filename>
-      <filename>tmpl/index.html</filename>
+      <filename>mod_parallax.xml</filename>
+      <folder>tmpl</folder>
    </files>
    <config>
       <fields name="params">
          <fieldset name="basic">
             <field
-				 name="img-parallax"
+				 name="imageparallax"
 				 type="media"
 				 class=""
 				 default=""
