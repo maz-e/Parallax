@@ -22,8 +22,6 @@
             <field
 				 name="imageparallax"
 				 type="media"
-				 class=""
-				 default=""
 				 label="Imagen"
 				 description="Selecciona una imagen"
 				 directory="parallax"
