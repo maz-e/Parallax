@@ -7,6 +7,10 @@
 	<authorEmail>miguel@bladis.com</authorEmail>
 	<copyright>Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.</copyright>
 	<description>A simple module to show a parallax effect with the materialize framework.</description>
+
+   <!-- Runs on install/uninstall/update; New in 2.5 -->
+	<scriptfile>script.php</scriptfile>
+
    <files>
       <filename>mod_parallax.xml</filename>
       <filename module="mod_parallax">mod_parallax.php</filename>
