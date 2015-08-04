@@ -1,0 +1,7 @@
+<?php
+// No direct access
+defined('_JEXEC') or die;
+?>
+<div class="parallax">
+   <img src="">
+</div>

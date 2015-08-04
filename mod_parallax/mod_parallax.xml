@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.4" client="site" method="upgrade">
+   <name>Parallax</name>
+	<version>1.0.0</version>
+	<creationDate>4/8/2015</creationDate>
+	<author>Miguel Angel Zapatero</author>
+	<authorEmail>miguel@bladis.com</authorEmail>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.</copyright>
+	<description>A simple module to show a parallax effect with the materialize framework.</description>
+   <files>
+      <filename>mod_parallax.xml</filename>
+      <filename module="mod_parallax">mod_parallax.php</filename>
+      <filename>index.html</filename>
+      <filename>helper.php</filename>
+      <filename>tmpl/default.php</filename>
+      <filename>tmpl/index.html</filename>
+   </files>
+   <config>
+      <fields name="params">
+         <fieldset name="basic">
+            <field
+				 name="img-parallax"
+				 type="media"
+				 class=""
+				 default=""
+				 label="Imagen"
+				 description="Selecciona una imagen"
+				 directory="parallax"
+				/>
+         </fieldset>
+      </fields>
+   </config>
+</extension>
