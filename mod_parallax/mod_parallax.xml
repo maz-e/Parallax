@@ -11,6 +11,7 @@
    <files>
       <filename module="mod_parallax">mod_parallax.php</filename>
       <filename>mod_parallax.xml</filename>
+      <filename>index.html</filename>
       <folder>tmpl</folder>
    </files>
    <config>
